@@ -5,7 +5,7 @@ class ProjectCards extends Component {
 
     render() {
     return (
-        <div key={this.props.id}>
+        <div>
            <a href={this.props.href} className="otherProj" >
            <div className="projectCard" id="pro1">
              <div className="cardtext">

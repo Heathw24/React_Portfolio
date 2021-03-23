@@ -1,14 +1,18 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 
 class Header extends Component {
 
-    render() {
+
+
+    // const [show, setShow] = useState();
+ render() {
+    
     return(
     <div className="start-sidebar">
         
      
         <div className="start-sidebar-inner">
-          <div href="#" class="personal">
+          <div href="#" className="personal">
                 <div className="person-avatar">
                     <img src="assets/img/MaybeUse.jpg" alt="me" className="avatar" />
                 </div>
@@ -19,9 +23,9 @@ class Header extends Component {
           </div>
             <nav className="navLinks" >
                
-               <div className="navItem" onClick={this.onClick1}>About Me</div>
-               <div className="navItem" onClick={this.onClick2}> Projects</div>
-               <div className="navItem" onClick={this.onClick3}> Contact Me</div>
+               <div className="navItem"  onClick={this.props.setAbout}>About Me</div>
+               <div className="navItem" onClick={this.props.setProj}> Projects</div>
+               <div className="navItem" onClick={this.props.setCont}> Contact Me</div>
                <div className="navItem"> <a className="navText" href="https://docs.google.com/document/d/1jU8whvutQ2mb-C9YaV7fjldcDtP4W6JR/edit">Resume</a></div>
                
             </nav>
@@ -31,7 +35,9 @@ class Header extends Component {
         
     </div>
     );
-    }
+
+ }
+    
 
 }
 

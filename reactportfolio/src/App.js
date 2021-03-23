@@ -2,49 +2,51 @@
 import './App.css';
 import Header from './components/header'
 import Footer from './components/footer'
-import AboutMe from './components/aboutMe'
-import Contact from './components/contact'
-import Projects from './components/projects'
 import React, { Component } from "react"
-import ReactDOM from "react-dom"
+import Display from './components/display';
+
 
 class App extends Component {
-  constructor() {
+  constructor(props) {
   
-  super();
+  super(props);
   this.state = {
     show: "About"
-  }
+  };
+
+
 }
 
- setAbout() {
+ setAbout = (event) => {
    this.setState({
     show: "About"
-   })
+   });
  }
 
- setProj() {
+ setProj = (event) => {
   this.setState({
    show: "Project"
-  })
+  });
 }
 
-setCont() {
+setCont = (event) => {
   this.setState({
    show: "Contact"
-  })
+  });
 }
+ 
+
+
+
 
   render() {
 
   
   return (
     <div className="App">
-      <Header/>
+      <Header setAbout={this.setAbout} setProj={this.setProj} setCont={this.setCont}/>
       <main className="site-main">
-        <AboutMe onclick1={this.setAbout} onclick2={this.setProj} onclick3={this.setCont}/>
-        <Projects/>
-        <Contact/>
+        <Display show={this.state.show}/>
       </main>
       <Footer/>
     </div>
