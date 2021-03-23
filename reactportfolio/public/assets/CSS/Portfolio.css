@@ -24,6 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   font-weight: 600;
+  padding-bottom: 25px;
 }
 
 /* ul{
@@ -68,6 +69,7 @@ footer {
     bottom: 0px;
     right: 0px;
     left: 0px;
+    margin-top: 10px;
 }
 
 .navText  {

@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Header() {
+class Header extends Component {
 
-
+    render() {
     return(
     <div className="start-sidebar">
         
@@ -19,9 +19,9 @@ function Header() {
           </div>
             <nav className="navLinks" >
                
-               <div className="navItem"> <a className="navText" href="#aboutMe" >About Me</a></div>
-               <div className="navItem"> <a className="navText" href="#project"> Projects </a></div>
-               <div className="navItem"> <a className="navText" href="#contact"> Contact Me </a></div>
+               <div className="navItem" onClick={this.onClick1}>About Me</div>
+               <div className="navItem" onClick={this.onClick2}> Projects</div>
+               <div className="navItem" onClick={this.onClick3}> Contact Me</div>
                <div className="navItem"> <a className="navText" href="https://docs.google.com/document/d/1jU8whvutQ2mb-C9YaV7fjldcDtP4W6JR/edit">Resume</a></div>
                
             </nav>
@@ -31,6 +31,7 @@ function Header() {
         
     </div>
     );
+    }
 
 }
 
