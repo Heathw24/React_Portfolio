@@ -1,0 +1,338 @@
+:root {
+    --Main: rgba(116, 11, 11, 0.8);
+    --Back: rgba(8, 8, 8, 0.966);
+    --Glow: rgb(255, 255, 255);
+
+
+}
+
+.avatar {
+    width:152px;
+    height: 152px;
+    border-radius: 50%;
+    border: 3px rgba(8, 8, 8, 0.966);
+    border-style: double;
+
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mainSection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+}
+
+/* ul{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+} */
+.contactMe {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+  padding: 15px;
+  margin: 25px;
+}
+
+/* tried to make h2 tags glow when hovering but didnt work as planned. 
+h2:hover {
+    box-shadow:10px 10px 10px 10px rgba(102, 175, 233, 0.6);
+} */
+
+
+
+footer {
+    margin-left: 25%;
+    background-color: var(--Back);
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin-top: 10px;
+}
+
+.navText  {
+    color: white;
+}
+
+
+
+.navItem{
+    padding: 25px;
+    font-size: 20px;
+   white-space: nowrap;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+}
+
+.person-avatar {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.personal{
+    font-size: 25px;
+    text-align: center;
+    color: inherit;
+}
+
+.person-content{
+    margin-left: -40px;
+    margin-right: -20px;
+}
+
+.person-subtitle{
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.person-title {
+ font-size: 22px;
+ font-weight: 500;
+}
+
+
+
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    border: 4px double;
+    /* padding: 20px; */
+    margin: 20px 20px;
+    border-color: var(--Main); 
+    height: inherit;
+    width: inherit;
+    /* margin: 20px; */
+    position: relative;
+} 
+
+/* couldnt figure out which class to target to give me the desired effects */
+/* a:hover,*/ .projectCard:hover { 
+/* .otherProj:hover, .project1:hover { */ 
+    border-color: var(--Glow);
+    border-radius: 10px;
+    outline: 5;
+    box-shadow:10px 10px 10px 10px rgba(116, 11, 11, 0.8);
+    
+}
+
+
+#pro1 {
+    margin:0;
+    background-image: url("https://camo.githubusercontent.com/eb87d8021aa0eb5a0dfbd6b8c1803e78351a94939338256a9b252b4b562aaa4b/68747470733a2f2f692e6962622e636f2f5a7a6673337a6b2f73637265656e636170747572652d66696c652d432d55736572732d31373034362d506c61796c6973742d5265706f2d696e6465782d68746d6c2d323032302d31322d31302d31302d31342d32342e706e67");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    /* background-size:inherit; 
+    Quick attempt to fix backgrounf image */ 
+
+}
+
+#pro2 {
+    background-image: url("https://github.com/Heathw24/Weather_Checker/raw/main/assets/Images/Screenshot.png");
+    background-size: cover;
+}
+
+#pro3 {
+    background-image: url("https://github.com/Heathw24/Day_Planner/raw/main/Assets/Images/Screenshot.png");
+    background-size: cover;
+}
+
+#pro4 {
+    background-image: url("https://i.pinimg.com/236x/c2/a9/c9/c2a9c9621175a6f04804d0d192a787b0--neon-logo-sg-logo.jpg");
+}
+
+#pro5 {
+    background-image: url("https://images-platform.99static.com//4f-AljZDea80NTdsWo6PQwypUP0=/0x0:1024x1024/fit-in/500x500/99designs-contests-attachments/112/112215/attachment_112215478");
+}
+
+.project1 {
+    margin: 20px 30px 20px 30px;
+    width:100%;
+    height: 400px;
+    /* background-image: url("https://centaur-wp.s3.eu-central-1.amazonaws.com/marketingweek/prod/content/uploads/2017/05/12103909/Coding-body-image-.jpg?auto=compress,format&q=60&w=750&h=460"); */
+}
+
+.otherProj {
+    height: 300px;
+    width: 300px;
+    margin: 20px 30px;
+}
+
+.cardtext {
+    background-color:var(--Main);
+    width: 35%;
+    height: auto;
+    color: white;
+    position: absolute;;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+}
+
+/* played with grid containers/items but couldnt get it to flex when window shrank 
+
+.grid-item {
+
+    padding: 8px 10px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+     
+ } */
+
+#projectSec {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sectionTitle {
+    font-size: 35px;
+    font-weight: 300;
+    color: var(--Main);
+    text-decoration: underline;
+    text-decoration-color:var(--Main);
+   
+}
+
+.site-main {
+    margin-left: 25%;
+    background-color: var(--Back);
+    height: 1200px;
+}
+
+
+.start-sidebar {
+    top:0;
+    bottom:0;
+    left:0;
+    position:fixed;
+    z-index:2;
+    width:25%;
+    font-size: 14px;
+    color:#fff;
+    text-align: left;
+    background-color: var(--Main);
+    background-image: url(../img/charlotte-panorama-north-carolina.jpg.jpg);
+    background-size: cover;
+  }
+
+  .start-sidebar::before { 
+     z-index: -5;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    content: " ";
+    display: block;
+    width: 25%;
+    /* background: url(charlotte-panorama-north-carolina.jpg.jpg);
+    background-size: cover; */
+    background-color: var(--Main);
+}
+
+
+.start-sidebar-inner {
+    padding: 45px 40px;
+}
+
+.start-sidebar > * {
+    z-index: 5;
+}
+
+/* @media screen and (max-width:900px) { */
+
+
+
+    @media only screen and (max-width: 767px) {
+    .avatar {
+        width:150px;
+        height: 150px;
+    }
+
+     .start-sidebar::before  {
+        width: 100%;
+        height: 237px;
+        /* opacity: 30%; */
+    }
+
+    .site-main {
+        margin-left: 0;
+        margin-top: 237px;
+        height: auto;
+    }
+
+    .navItem {
+        width: 20%;
+        padding: 0px 20px;
+        margin: 0px 20px;
+    }
+
+    .personal {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .person-content {
+        width: 75%;
+    }
+    .start-sidebar {
+        width:100%;
+        height:fit-content;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .start-sidebar-inner {
+        padding: 25px 20px;
+       display: flex;
+        flex-direction: column;
+    }
+
+    .navLinks {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer {
+        margin: 0px;
+        padding:30px;
+    }
+}
