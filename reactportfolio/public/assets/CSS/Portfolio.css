@@ -233,7 +233,7 @@ footer {
 .site-main {
     margin-left: 25%;
     background-color: var(--Back);
-    height: 1200px;
+    min-height: 100vh;
 }
 
 
