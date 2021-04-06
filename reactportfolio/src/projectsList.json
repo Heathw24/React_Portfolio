@@ -3,36 +3,43 @@
         "id:": 0,
         "name": "Employee Directory",
         "tech": "React, Bootstrap, Node.js, Javascript, HTML, CSS",
-        "href": "https://heathw24.github.io/Employee-Directory/"
+        "href": "https://heathw24.github.io/Employee-Directory/",
+        "imagePath": "https://github.com/Heathw24/Employee-Directory/raw/main/employee-directory/public/Employee-directoryScreenshot.png"
     },
     {
         "id:": 1,
         "name":"Day Planner 2.0",
         "tech":"React, Node,js, JavaScript, HTML, CSS",
-        "href":"https://heathw24.github.io/Day-Planner-2.0/"
+        "href":"https://heathw24.github.io/Day-Planner-2.0/",
+        "imagePath": "https://github.com/Heathw24/Day-Planner-2.0/raw/main/dayplanner/public/Dayplanner-v2.png"
     },
     {
         "id:": 2,
         "name":"Oh My Burgers",
         "tech":"Heroku, Handlebars, Node.js, MVC, MySQL, HTML, CSS, JavaScript",
-        "href":"https://oh-my-burgers.herokuapp.com/"
+        "href":"https://oh-my-burgers.herokuapp.com/",
+        "imagePath": "#"
     },
     {
         "id:": 3,
         "name":"Weather Checker",
         "tech":"JavaScript, jQuery, AJAX, HTML, CSS",
-        "href":"https://heathw24.github.io/Weather_Checker/"
+        "href":"https://heathw24.github.io/Weather_Checker/",
+        "imagePath": "https://github.com/Heathw24/Weather_Checker/raw/main/assets/Images/Screenshot.png"
     },
     {
         "id:": 4,
         "name":"Book Club",
         "tech":"Passport, Sequilize, MySQL, Handlebars, Express, Node,js, HTML, CSS",
-        "href":"https://stormy-badlands-74908.herokuapp.com/"},
+        "href":"https://stormy-badlands-74908.herokuapp.com/",
+        "imagePath": "#"
+    },
     {
         "id:": 5,
         "name":"Employee Tracker",
         "tech":"MySQL, Inquirer, Node.js", 
-        "href":"https://drive.google.com/file/d/1oO0vSC091e2Py8Ef9v1RaAd1vZQFFAAm/view"
+        "href":"https://drive.google.com/file/d/1oO0vSC091e2Py8Ef9v1RaAd1vZQFFAAm/view",
+        "imagePath": "#"
     }
     
 ]

@@ -14,7 +14,7 @@ class Projects extends Component {
                 <section className="mainSection">
                 <h2 className="sectionTitle">Projects</h2>
                 <div id="projectSec">
-                 {projectsList.map((p) => <ProjectCards key={p.id} name={p.name} tech={p.tech} href={p.href} />)}
+                 {projectsList.map((p) => <ProjectCards key={p.id} name={p.name} tech={p.tech} href={p.href} imagePath={p.imagePath}/>)}
                 </div>
                 </section>
              </div>
