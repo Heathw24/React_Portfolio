@@ -149,7 +149,7 @@ footer {
 
 #pro1 {
     margin:0;
-    background-image: url("https://camo.githubusercontent.com/eb87d8021aa0eb5a0dfbd6b8c1803e78351a94939338256a9b252b4b562aaa4b/68747470733a2f2f692e6962622e636f2f5a7a6673337a6b2f73637265656e636170747572652d66696c652d432d55736572732d31373034362d506c61796c6973742d5265706f2d696e6465782d68746d6c2d323032302d31322d31302d31302d31342d32342e706e67");
+    
     background-repeat: no-repeat;
     /* background-position: center; */
     background-size: cover;
@@ -233,7 +233,7 @@ footer {
 .site-main {
     margin-left: 25%;
     background-color: var(--Back);
-    height: 1200px;
+    min-height: 100vh;
 }
 
 
