@@ -1,5 +1,6 @@
 :root {
-    --Main: rgba(116, 11, 11, 0.8);
+    /* --Main: rgba(116, 11, 11, 0.8); */
+    --Main: rgba(24, 114, 138, 0.8);
     --Back: rgba(8, 8, 8, 0.966);
     --Glow: rgb(255, 255, 255);
 
@@ -151,7 +152,7 @@ footer {
     margin:0;
     
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
     background-size: cover;
     /* background-size:inherit; 
     Quick attempt to fix backgrounf image */ 
