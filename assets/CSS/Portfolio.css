@@ -231,6 +231,13 @@ footer {
    
 }
 
+.projectText{
+    font-size: 20px;
+    color: var(--Main);
+    text-decoration: underline;
+    text-decoration-color:var(--Main);
+}
+
 .site-main {
     margin-left: 25%;
     background-color: var(--Back);
