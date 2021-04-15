@@ -18,7 +18,7 @@ class ProjectCards extends Component {
              </div>
            </div>
          </a>
-         <a href={this.props.repo}><img src="..\public\assets\img\GitHub-Mark-Light-32px.png" alt="GitHub Repo"/></a>
+         <a href={this.props.repo}><img src="..\..\public\assets\img\GitHub-Mark-Light-32px.png" alt="GitHub Repo"/></a>
         </div>
     );
 
