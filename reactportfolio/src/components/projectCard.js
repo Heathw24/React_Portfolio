@@ -18,6 +18,7 @@ class ProjectCards extends Component {
              </div>
            </div>
          </a>
+         <a href={this.props.repo}><h3>Repo</h3></a>
         </div>
     );
 
